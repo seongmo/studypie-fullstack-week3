@@ -74,3 +74,4 @@ NODE_ENV=production npm run dev:knex
 
 * [dotenv-flow](https://www.npmjs.com/package/dotenv-flow)
 * [PM2](https://pm2.io/doc/en/runtime/overview/)
+* [Prettier](https://prettier.io/)
