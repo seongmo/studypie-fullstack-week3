@@ -1,0 +1,44 @@
+GET http://localhost:3000/movies
+
+###
+GET http://localhost:3000/movies/5
+
+###
+GET http://localhost:3000/movies/11
+
+###
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "title":"Deadpool 2",
+  "desc":"Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
+  "year":2018
+}
+
+###
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+  "title":"Sicario: Day of the Soldado",
+  "desc":"Agent Matt Graver teams up with operative Alejandro Gillick to prevent Mexican drug cartels from smuggling terrorists across the United States border.",
+  "year":2018
+}
+
+###
+GET http://localhost:3000/movies/7
+
+###
+POST http://localhost:3000/movies/7
+Content-Type: application/json
+
+{
+  "desc":"Wisecracking mercenary Ryan Reynolds battles the evil and powerful Thanos and other bad guys to save a boy's life."
+}
+
+###
+DELETE http://localhost:3000/movies/3

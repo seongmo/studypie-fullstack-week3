@@ -1,0 +1,15 @@
+{
+  "sqltools.connections": [
+    {
+      "database": "./dev.sqlite3",
+      "dialect": "SQLite",
+      "name": "dev.sqlite3"
+    },
+    {
+      "connectString": "postgres://dbuser:dbpass@localhost:5432/tempdb",
+      "connectionTimeout": 30,
+      "dialect": "PostgreSQL",
+      "name": "pg_dev"
+    }
+  ]
+}
